@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  kahootfronted:
+    build: ./kahootfronted
+    container_name: frontend-part
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
+
+    # volumes:
+    #   - ./kahootfronted:/app
+    #   - ./app/node_modules
+#Will work on MacOS and linux NOT WINDOWS
