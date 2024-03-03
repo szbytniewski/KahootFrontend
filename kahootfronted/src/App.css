@@ -1,1 +1,4 @@
 /* This file should only be used for things that change everything in the app like fonts, background colors, etc. not single things use TAILWIND for that */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
